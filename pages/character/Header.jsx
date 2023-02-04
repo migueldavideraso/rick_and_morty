@@ -1,5 +1,4 @@
 
-import Image from 'next/image'
 import styles from '@/styles/Character.module.css'
 
 
@@ -10,7 +9,7 @@ export default function renderPage ({ character, title }) {
 
 		<section className={styles.header} >
 
-			<Image alt={title} src={character?.image} />
+			<img alt={title} src={character?.image} />
 
 			<div className={styles.info_content}>
 				

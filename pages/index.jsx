@@ -1,5 +1,4 @@
 
-import Image from 'next/image'
 import Head from 'next/head'
 import Link from 'next/link'
 import styles from '@/styles/Home.module.css'
@@ -79,7 +78,7 @@ const HomePage = ({ info }) => {
 								See More
 							</Link>
 
-							<Image alt={character.name} src={character.image} />
+							<img alt={character.name} src={character.image} />
 
 							<div className={styles.title}>
 								{character.name}
